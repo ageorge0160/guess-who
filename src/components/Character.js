@@ -1,5 +1,4 @@
 import React from 'react';
-import charactersInfo from 'charactersInfo'
 
 const Character = ({img_url}) {
     return (
