@@ -1,4 +1,4 @@
-export default [
+const charactersInfo = [
   {id: 1,
   name: "Vincent Crabbe",
   img_url: "/images/vincent_crabbe.jpg",
@@ -447,3 +447,5 @@ export default [
     }
   },
 ]
+
+export default charactersInfo
