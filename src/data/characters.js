@@ -1,7 +1,7 @@
-module.exports = [
+export default [
   {id: 1,
   name: "Vincent Crabbe",
-  img: "",
+  img_url: "/images/vincent_crabbe.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -15,7 +15,7 @@ module.exports = [
 
   {id: 2,
   name: "Gregory Goyle",
-  img: "",
+  img_url: "/images/gregory_goyle.jpg",
   chars: {
     gender: "male",
     eyeColor: "brown",
@@ -29,7 +29,7 @@ module.exports = [
 
   {id: 3,
   name: "Blaise Zabini",
-  img: "",
+  img_url: "/images/blaise_zabini.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -43,7 +43,7 @@ module.exports = [
 
   {id: 4,
   name: "Theodore Nott",
-  img: "",
+  img_url: "/images/theodore_nott.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -57,7 +57,7 @@ module.exports = [
 
   {id: 5,
   name: "Daphne Greengrass",
-  img: "",
+  img_url: "/images/daphne_greengrass.jpg",
   chars: {
     gender: "female",
     hairColor: "blonde",
@@ -71,7 +71,7 @@ module.exports = [
 
   {id: 6,
   name: "Pansy Parkinson",
-  img: "",
+  img_url: "/images/pansy_parkinson.jpg",
   chars: {
     gender: "female",
     hairColor: "brown",
@@ -85,7 +85,7 @@ module.exports = [
 
   {id: 7,
   name: "Tracey Davis",
-  img: "",
+  img_url: "/images/tracey_davis.jpg",
   chars: {
     gender: "female",
     hairColor: "brown",
@@ -99,7 +99,7 @@ module.exports = [
 
   {id: 8,
   name: "Millicent Bulstrode",
-  img: "",
+  img_url: "/images/millicent_bulstrode.jpg",
   chars: {
     gender: "female",
     hairColor: "black",
@@ -113,7 +113,7 @@ module.exports = [
 
   {id: 9,
   name: "Micheal Corner",
-  img: "",
+  img_url: "/images/micheal_corner.jpg",
   chars: {
     gender: "male",
     hairColor: "black",
@@ -127,7 +127,7 @@ module.exports = [
 
   {id: 10,
   name: "Terry Boot",
-  img: "",
+  img_url: "/images/terry_boot.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -141,7 +141,7 @@ module.exports = [
 
   {id: 11,
   name: "Anthony Goldstein",
-  img: "",
+  img_url: "/images/anthony_goldstein.jpg",
   chars: {
     gender: "male",
     hairColor: "blonde",
@@ -155,7 +155,7 @@ module.exports = [
 
   {id: 12,
   name: "Kevin Entwhistle",
-  img: "",
+  img_url: "/images/kevin_entwhistle.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -169,7 +169,7 @@ module.exports = [
 
   {id: 13,
   name: "Lisa Turpin",
-  img: "",
+  img_url: "/images/lisa_turpin.jpg",
   chars: {
     gender: "female",
     hairColor: "black",
@@ -183,7 +183,7 @@ module.exports = [
 
   {id: 14,
   name: "Morag Macdougal",
-  img: "",
+  img_url: "/images/morag_macdougal.jpg",
   chars: {
     gender: "female",
     hairColor: "brown",
@@ -197,7 +197,7 @@ module.exports = [
 
   {id: 15,
   name: "Mandy Brocklehurst",
-  img: "",
+  img_url: "/images/mandy_brocklehurst.jpg",
   chars: {
     gender: "female",
     hairColor: "blonde",
@@ -211,7 +211,7 @@ module.exports = [
 
   {id: 16,
   name: "Padma Patil",
-  img: "",
+  img_url: "/images/padma_patil.jpg",
   chars: {
     gender: "female",
     hairColor: "black",
@@ -222,23 +222,10 @@ module.exports = [
     house: "ravenclaw"
     }
   },
-  {id: 1,
-  name: "Vincent Crabbe",
-  img: "",
-  chars: {
-    gender: "male",
-    hairColor: "brown",
-    eyeColor: "green",
-    hasScarf: true,
-    hasTie: false,
-    hairLength: "short",
-    house: "slytherin"
-    }
-  },
 
   {id: 17,
   name: "Dean Thomas",
-  img: "",
+  img_url: "/images/dean_thomas.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -250,10 +237,9 @@ module.exports = [
     }
   },
 
-
   {id: 18,
   name: "Seamus Finnigan",
-  img: "",
+  img_url: "/images/seamus_finnigan.jpg",
   chars: {
     gender: "male",
     eyeColor: "brown",
@@ -267,7 +253,7 @@ module.exports = [
 
   {id: 19,
   name: "Neville Longbottom",
-  img: "",
+  img_url: "/images/neville_longbottom.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -281,7 +267,7 @@ module.exports = [
 
   {id: 20,
   name: "Harry Potter",
-  img: "",
+  img_url: "/images/harry_potter.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -295,7 +281,7 @@ module.exports = [
 
   {id: 21,
   name: "Ron Weasley",
-  img: "",
+  img_url: "/images/ron_weasley.jpg",
   chars: {
     gender: "male",
     hairColor: "red",
@@ -309,7 +295,7 @@ module.exports = [
 
   {id: 22,
   name: "Hermione Granger",
-  img: "",
+  img_url: "/images/hermione_granger.jpg",
   chars: {
     gender: "female",
     hairColor: "brown",
@@ -323,7 +309,7 @@ module.exports = [
 
   {id: 23,
   name: "Pavarti Patil",
-  img: "",
+  img_url: "/images/pavarti_patil.jpg",
   chars: {
     gender: "female",
     hairColor: "black",
@@ -337,7 +323,7 @@ module.exports = [
 
   {id: 24,
   name: "Lavender Brown",
-  img: "",
+  img_url: "/images/lavender_brown.jpg",
   chars: {
     gender: "female",
     hairColor: "blonde",
@@ -351,7 +337,7 @@ module.exports = [
 
   {id: 25,
   name: "Ernie Macmillan",
-  img: "",
+  img_url: "/images/ernie_macmillan.jpg",
   chars: {
     gender: "male",
     hairColor: "blonde",
@@ -365,7 +351,7 @@ module.exports = [
 
   {id: 26,
   name: "Justin Finch-Fetchley",
-  img: "",
+  img_url: "/images/justin_finch_fetchley.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -379,7 +365,7 @@ module.exports = [
 
   {id: 27,
   name: "Zacharias Smith",
-  img: "",
+  img_url: "/images/zacharias_smith.jpg",
   chars: {
     gender: "male",
     hairColor: "blonde",
@@ -393,7 +379,7 @@ module.exports = [
 
   {id: 28,
   name: "Wayne Hopkins",
-  img: "",
+  img_url: "/images/wayne_hopkins.jpg",
   chars: {
     gender: "male",
     hairColor: "brown",
@@ -407,7 +393,7 @@ module.exports = [
 
   {id: 29,
   name: "Megan Jones",
-  img: "",
+  img_url: "/images/megan_jones.jpg",
   chars: {
     gender: "female",
     hairColor: "brown",
@@ -421,7 +407,7 @@ module.exports = [
 
   {id: 30,
   name: "Leanne Moon",
-  img: "",
+  img_url: "/images/leanne_moon.jpg",
   chars: {
     gender: "female",
     hairColor: "black",
@@ -435,7 +421,7 @@ module.exports = [
 
   {id: 31,
   name: "Hannah Abbott",
-  img: "",
+  img_url: "/images/hannah_abbott.jpg",
   chars: {
     gender: "female",
     hairColor: "brown",
@@ -449,7 +435,7 @@ module.exports = [
 
   {id: 32,
   name: "Susan Bones",
-  img: "",
+  img_url: "/images/susan_bones.jpg",
   chars: {
     gender: "female",
     hairColor: "red",
@@ -460,5 +446,4 @@ module.exports = [
     house: "hufflepuff"
     }
   },
-
 ]

@@ -1,9 +1,11 @@
 import React from 'react';
 
-export class Character extends React.Component {
-  render() {
+const Character = ({img_url}) {
     return (
-      <p> This is where each character will be shown </p>
+      <div className="character">
+        <img src={img_url} />
+      </div>
+
     )
   }
 }
